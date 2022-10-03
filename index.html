@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br" translate="no">
+    <head>
+        <title>RM Veículos Especiais</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0" maximum-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Pedro Telles">
+        <meta name="description" content="Projeto 005 do curso de HTML e CSS">
+        <meta name="keywords" content="projeto,curso,html,css,aprendendo,teste">
+
+        <base href="index.html">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/imagens/pneu.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="header-center">
+                <div class="header-logo"><img title="Logo RM Veículos Especiais" src="assets/imagens/logo.jpg" alt="Logo RM Veículos Especiais"></div>
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li><a rel="next" target="_self" title="Esta é a página atual" href="index.html" class="pag-atual">HOME</a></li>
+                            <li><a rel="next" target="_self" title="Ir para a página de vendas" href="venda.html">VENDA</a></li>
+                            <li><a rel="next" target="_self" title="Ir para a página de sobre nós" href="sobre-nos.html">SOBRE NÓS</a></li>
+                            <li><a rel="next" target="_self" title="Ir para seção de contato" href="#ctt">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <span id="menu-icon" class="material-icons">menu</span>
+            </div>
+            <div class="header-menu-mob">
+                <nav>
+                    <ul>
+                        <li><a rel="next" target="_self" title="Esta é a página atual" href="index.html" class="pag-atual">HOME</a></li>
+                        <li><a rel="next" target="_self" title="Ir para a página de vendas" href="venda.html">VENDA</a></li>
+                        <li><a rel="next" target="_self" title="Ir para a página de sobre nós" href="sobre-nos.html">SOBRE NÓS</a></li>
+                        <li><a rel="next" target="_self" title="Ir para seção de contato" href="#ctt">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="main-banner">
+                <div class="main-banner-topicos">
+                    <h2>CONSULTORIA</h2>
+                    <h2>COMPRA</h2>
+                    <h2>VENDA</h2>
+                    <p>CONTATO@EXEMPLO.COM.BR</p>
+                </div>
+            </section>
+            <section class="main-destaque">
+                <div class="main-destaque-center">
+                    <div class="title-section"><!-- PADRAO-TITULO-COM-LINHA -->
+                        <div class="linha"></div>
+                        <h2>VEÍCULOS EM DESTAQUE</h2>
+                    </div><!-- PADRAO-TITULO-COM-LINHA -->
+                    <div class="main-destaque-itens">
+                        <div class="main-destaque-item">
+                            <div class="item-image item-1"></div>
+                            <div class="item-info">
+                                <h3>Volkswagen Karmann-ghia</h3>
+                                <small>1.6v, Gasolina, 2P, Manual, 1969</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+
+                        <div class="main-destaque-item">
+                            <div class="item-image item-2"></div>
+                            <div class="item-info">
+                                <h3>Chevrolet Opala</h3>
+                                <small>4cc, Bancos de Corvin, 2.5, 1980</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+
+                        <div class="main-destaque-item">
+                            <div class="item-image item-3"></div>
+                            <div class="item-info">
+                                <h3>Volkswagen Gol GTs</h3>
+                                <small>Turbo forjado, xenon e altura legalizadas, 1991</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-servicos-depoimentos">
+                <div class="main-servicos">
+                    <div class="box-servicos">
+                        <h2>SERVIÇOS</h2>
+                        <ul>
+                            <li>Compra</li>
+                            <li>Venda</li>
+                            <li>Consignação</li>
+                            <li>Consultoria de Veículos</li>
+                            <li>Indicação de mecânicos e peças</li>
+                        </ul>
+                        <a title="Saiba mais sobre 'Serviços'" href="#">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="main-depoimentos">
+                    <div class="box-depoimentos">
+                        <h2>DEPOIMENTOS</h2>
+                        <p>"O Rafael foi muito atencioso, me buscou no aeroporto e garantiu toda a comodidade e conforto no almoço, no transfer, na visita ao veículo e durante o test-drive"</p>
+                        <img title="Depoimento anterior" src="assets/imagens/arrow-left.png" alt="Depoimento anterior">
+                        <img title="Depoimento seguinte" src="assets/imagens/arrow-right.png" alt="Depoimento seguinte">
+                        <small>Gustavo Teixeira - Colecionador</small>
+                    </div>
+                </div>
+            </section>
+            <section id="ctt" class="main-contato">
+                <div class="contato-center">
+                    <div class="title-section"><!-- PADRAO-TITULO-COM-LINHA -->
+                        <div class="linha"></div>
+                        <h2>ENTRE EM CONTATO</h2>
+                    </div><!-- PADRAO-TITULO-COM-LINHA -->
+                    <div class="contato-form">
+                        <form action="contato.php" method="get" autocomplete="on">
+                            <div>
+                                <input type="text" name="nome" id="inome" placeholder="nome" autocomplete="name" minlength="2" maxlength="50" required>
+                            </div>
+                            <div>
+                                <input type="email" name="email" id="iemail" placeholder="email" autocomplete="email" required>
+                                <input type="tel" name="tel" id="itel" placeholder="telefone" autocomplete="tel" required>
+                            </div>
+                            <div style="clear: both;"></div>
+                            <div>
+                                <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="mensagem"></textarea>
+                            </div>
+                            <input name="enviar" type="submit" value="ENVIAR">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="footer-center">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a rel="next" target="_self" title="Esta é a página atual" href="index.html" class="pag-atual">HOME</a></li>
+                            <li><a rel="next" target="_self" title="Ir para a página de vendas" href="venda.html">VENDA</a></li>
+                            <li><a rel="next" target="_self" title="Ir para a página de sobre nós" href="sobre-nos.html">SOBRE NÓS</a></li>
+                            <li><a rel="next" target="_self" title="Ir para seção de contato" href="#ctt">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <small>Todos os direitos reservador a <strong>RM Veículos Especiais</strong></small>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>

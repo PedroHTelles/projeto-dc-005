@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Venda - RM Veículos Especiais</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta name="author" content="Pedro Telles">
+        <meta name="description" content="Projeto 005 do curso de HTML e CSS">
+        <meta name="keywords" content="projeto,curso,html,css,aprendendo,teste">
+
+        <base href="index.html">
+
+        <link rel="stylesheet" href="assets/css/venda.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/imagens/pneu.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="header-center">
+                <div class="header-logo"><img title="Logo RM Veículos Especiais" src="assets/imagens/logo.jpg" alt="Logo RM Veículos Especiais"></div>
+                <div class="header-menu">
+                    <nav>
+                        <ul>
+                            <li><a rel="prev" target="_self" title="Ir para a página principal" href="index.html">HOME</a></li>
+                            <li><a rel="next" target="_self" title="Esta é a página atual" href="venda.html" class="pag-atual">VENDA</a></li>
+                            <li><a rel="next" target="_self" title="Ir para a página de sobre nós" href="sobre-nos.html">SOBRE NÓS</a></li>
+                            <li><a rel="next" target="_self" title="Ir para seção de contato" href="index.html">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <span id="menu-icon" class="material-icons">menu</span>
+            </div>
+            <div class="header-menu-mob">
+                <nav>
+                    <ul>
+                        <li><a rel="prev" target="_self" title="Ir para a página principal" href="index.html">HOME</a></li>
+                        <li><a rel="next" target="_self" title="Esta é a página atual" href="venda.html" class="pag-atual">VENDA</a></li>
+                        <li><a rel="next" target="_self" title="Ir para a página de sobre nós" href="sobre-nos.html">SOBRE NÓS</a></li>
+                        <li><a rel="next" target="_self" title="Ir para seção de contato" href="index.html">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="main-venda">
+                <div class="title-section"><!-- PADRAO-TITULO-COM-LINHA -->
+                    <div class="linha"></div>
+                    <h2>VEÍCULOS PARA VENDA</h2>
+                </div><!-- PADRAO-TITULO-COM-LINHA -->
+                <div class="main-venda-center">
+                    <aside class="main-filtro">
+                        <form action="filtro.php" method="get">
+                            <div>
+                                <label for="ifilpreco">Filtre por preço</label>
+                                <input type="range" name="filpreco" id="ifilpreco" min="5000" max="70000" step="5000" value="70000">
+                                <div>
+                                    <small>R$5.000</small><small>R$70.000</small>
+                                </div>
+                            </div>
+                            <div>
+                                <p>Filtre por ano</p>
+                                <input type="radio" name="fil-ano" id="todos-anos" value="todos-anos" checked>
+                                <label for="todos-anos">Todas as décadas</label><br>
+                                <input type="radio" name="fil-ano" id="00-09" value="00-09">
+                                <label for="00-09">2000 a 2009</label><br>
+                                <input type="radio" name="fil-ano" id="90-99" value="90-99">
+                                <label for="90-99">1990 a 1999</label><br>
+                                <input type="radio" name="fil-ano" id="80-89" value="80-89">
+                                <label for="80-89">1980 a 1989</label><br>
+                                <input type="radio" name="fil-ano" id="70-79" value="70-79">
+                                <label for="70-79">1970 a 1979</label><br>
+                                <input type="radio" name="fil-ano" id="60-69" value="60-69">
+                                <label for="60-69">1960 a 1969</label><br>
+                            </div>
+                            <input  name="filtrar" type="submit" value="FILTRAR">
+                        </form>
+                    </aside>
+                    <div class="main-venda-itens">
+                        <div class="main-venda-item">
+                            <div class="item-image item-1"></div>
+                            <div class="item-info">
+                                <h3>Volkswagen Karmann-ghia</h3>
+                                <small>1.6v, Gasolina, 2P, Manual, 1969</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+
+                        <div class="main-venda-item">
+                            <div class="item-image item-2"></div>
+                            <div class="item-info">
+                                <h3>Chevrolet Opala</h3>
+                                <small>4cc, Bancos de Corvin, 2.5, 1980</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+
+                        <div class="main-venda-item">
+                            <div class="item-image item-3"></div>
+                            <div class="item-info">
+                                <h3>Volkswagen Gol GTs</h3>
+                                <small>Turbo forjado, xenon e altura legalizadas, 1991</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+
+                        <div class="main-venda-item">
+                            <div class="item-image item-1"></div>
+                            <div class="item-info">
+                                <h3>Volkswagen Karmann-ghia</h3>
+                                <small>1.6v, Gasolina, 2P, Manual, 1969</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+
+                        <div class="main-venda-item">
+                            <div class="item-image item-2"></div>
+                            <div class="item-info">
+                                <h3>Chevrolet Opala</h3>
+                                <small>4cc, Bancos de Corvin, 2.5, 1980</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+
+                        <div class="main-venda-item">
+                            <div class="item-image item-3"></div>
+                            <div class="item-info">
+                                <h3>Volkswagen Gol GTs</h3>
+                                <small>Turbo forjado, xenon e altura legalizadas, 1991</small>
+                            </div>
+                            <a rel="next" target="_self" title="Mais detalhes sobre o veículo" href="#">Mais detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="footer-center">
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a rel="prev" target="_self" title="Ir para a página principal" href="index.html">HOME</a></li>
+                            <li><a rel="next" target="_self" title="Esta é a página atual" href="venda.html" class="pag-atual">VENDA</a></li>
+                            <li><a rel="next" target="_self" title="Ir para a página de sobre nós" href="sobre-nos.html">SOBRE NÓS</a></li>
+                            <li><a rel="next" target="_self" title="Ir para seção de contato" href="index.html">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <small>Todos os direitos reservador a <strong>RM Veículos Especiais</strong></small>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
