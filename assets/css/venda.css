@@ -127,6 +127,8 @@ header{
     text-align: center;
 
     display: none;
+
+    transition: 1s;
 }
 
 .header-menu-mob ul li{
@@ -386,17 +388,6 @@ footer{
         padding: 2rem;
         */
         justify-content: space-around;
-    }
-
-    .header-menu-mob{
-        /*
-        width: 100%;
-    
-        text-align: center;
-    
-        display: none;
-        */
-        display: block;
     }
 
     /*--------------------MAIN-FILTRO-----------------------*/
